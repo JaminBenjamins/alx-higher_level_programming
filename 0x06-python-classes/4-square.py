@@ -1,7 +1,15 @@
 #!/usr/bin/python3
+""" Defining a class """
+
+
 class Square:
+    """ Initializing the class """
     def __init__(self,size=0):
         self.size
+        """ 
+            Args:
+                size(int) - size of square
+        """
 
     """ setting function for size """
     @property
@@ -18,4 +26,5 @@ class Square:
         self.__size = value
 
     def area(self):
+        """ Defining area function """
         return (self.size * self.size)
