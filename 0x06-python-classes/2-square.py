@@ -5,9 +5,10 @@
 class Square:
     """ Initializing a class """
 
-    def __init__(self,size=0):
+    def __init__(self, size=0):
         """
-
+            Initialize a square
+            
             Args:
                 size(int): Value of square
         """
