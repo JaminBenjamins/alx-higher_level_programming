@@ -10,6 +10,7 @@ class Rectangle:
         Args: 
             width(int) - the width of a rectangle
             height(int) - the height of a rectangle
+            number_of_instances(int) - where rectangle appears
 
         """
         self.width = width
