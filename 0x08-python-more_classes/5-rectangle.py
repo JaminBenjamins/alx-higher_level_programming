@@ -5,11 +5,11 @@
 class Rectangle:
     """ Represent a Rectangle """
     def __init__(self, width=0, height=0):
-        """Initialize a rectangle 
-            
+        """Initialize a rectangle
+
         Args: 
-            width(int) - the width of a rectangle 
-            height(int) - the height of a rectangle 
+            width(int) - the width of a rectangle
+            height(int) - the height of a rectangle
 
         """
         self.width = width
@@ -62,7 +62,7 @@ class Rectangle:
             if i != self.__height - 1:
                 append("\n")
         return("".join(rect))
-    
+
     def __repr__(self):
         """ Return string representation of a rectangle """
         rect = "Rectangle(" + str(self.__width)
