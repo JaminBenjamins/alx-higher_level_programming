@@ -80,13 +80,13 @@ if ``value`` is not an integer, a ``TypeError`` is raised.
 
     >>> bg.integer_validator("invalid", True)
     Traceback (most recent call last):
-    TypeError: another invalid must be an integer
+    TypeError: invalid must be an integer
 
 ::
 
-    >>> bg.integer_validator("invalid tuple", (1,))
+    >>> bg.integer_validator("tuple", (1,))
     Traceback (most recent call last):
-    TypeError: invalid tuple must be an integer
+    TypeError: tuple must be an integer
 
 ::
 
