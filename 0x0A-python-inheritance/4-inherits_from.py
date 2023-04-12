@@ -1,4 +1,4 @@
-#!/usr/bin/pytthon3
+#!/usr/bin/python3
 """ A function that checks if an object belongs to the class it inherited """
 
 
