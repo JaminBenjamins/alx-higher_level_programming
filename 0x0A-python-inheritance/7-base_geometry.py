@@ -2,7 +2,7 @@
 """ Defining a class """
 
 
-class BaseGemoetry:
+class BaseGeometry:
     """ Defining attributes of a class """
     def area(self):
         """ Raising an exception for area function """
