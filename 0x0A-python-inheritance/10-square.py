@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """ Defines a square a subclass of Rectangle """
-Square = __import__('9-rectangle').Square
+Rectangle = __import__('9-rectangle').Rectangle
 
 
 class Square(Rectangle):
