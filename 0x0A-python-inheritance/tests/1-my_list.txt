@@ -1,0 +1,52 @@
+=============================
+The ``1-my_list`` module
+=============================
+
+Using ``MyList``
+---------------------
+
+Import the class:
+
+    >>> MyList = __import__('1-my_list').MyList
+
+Now test it:
+
+    >>> my_list = MyList()
+
+    >>> my_list
+    []
+
+    >>> my_list.append(1000)
+
+    >>> my_list.append(84)
+
+    >>> my_list.append(8)
+
+    >>> my_list
+    [1000, 84, 8]
+
+    >>> my_list.print_sorted()
+    [1000, 84, 8]
+
+    >>> my_list
+    [1000, 84, 8]
+
+    >>> my_list = MyList([55, 86, 29, 78])
+
+    >>> my_list
+    [55, 86, 29, 78]
+
+    >>> my_list.print_sorted()
+    [29, 55, 78, 86]
+
+    >>> my_list = MyList("jamin")
+    
+    >>> my_list
+    ['j', 'a', 'm', 'i', 'n']
+
+    >>> my_list.print_sorted()
+    ['a', 'i', 'j', 'm', 'n']
+
+    >>> new_line = MyList()
+
+    >>> new_line.print_sorted()
