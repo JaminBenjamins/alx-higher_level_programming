@@ -2,6 +2,6 @@
 """ Defining an empty class """
 
 
-class BaseGemoetry:
+class BaseGeometry:
     """ An empty class """
     pass
