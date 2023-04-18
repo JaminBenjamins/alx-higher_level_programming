@@ -471,3 +471,4 @@ class TestBase_save_to_file_csv(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+    """ Setting the file name as an executable module """
