@@ -20,4 +20,4 @@ if __name == "__main__":
     session = session_maker()
 
     for state in session.query(State).order_by(State.id):
-        print("{}:{}".format(state.id, state.name))
+        print("{}: {}".format(state.id, state.name))
