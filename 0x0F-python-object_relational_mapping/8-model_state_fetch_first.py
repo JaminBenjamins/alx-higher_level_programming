@@ -3,7 +3,7 @@
     List all state objects from database hbtn_0e_6_usa
     Usage: ./8-model_state_fetch_first.py <mysql username> \
                                         <mysql password> \
-                                        <database name> 
+                                        <database name>
 """
 import sys
 from sqlalchemy import create_engine
