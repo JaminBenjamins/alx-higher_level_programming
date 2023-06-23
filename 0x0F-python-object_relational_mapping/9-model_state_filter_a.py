@@ -8,7 +8,7 @@
 import sys
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
-from model_state import Base, State
+from model_state import State
 
 if __name == "__main__":
     engine = create_engine(
@@ -20,5 +20,5 @@ if __name == "__main__":
     session = session_maker()
 
     for state in session.query(State).order_by(State.id):
-        if 'a' in state.name:
+        if "a" in state.name:
             print("{}: {}".format(state.id, state.name))
