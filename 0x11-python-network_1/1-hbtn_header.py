@@ -3,7 +3,7 @@ the X-Request-Id parameter found in header of response
 """
 
 import sys
-import urllib
+import urllib.request
 
 if __name__ == "__main__":
     url = sys.argv[1]
