@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 """Takes a URL sends a request to the URL and fetches
 the X-Request-Id parameter found in header of response
 """
